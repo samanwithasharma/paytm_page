@@ -1,0 +1,84 @@
+/*whole-content*/
+#whole-content{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    width:93%;
+    margin-left: 45px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: rgb(243, 246, 248);
+  }
+  /*learnbtn part*/
+  .learnBtn, .learnBtn1, .learnBtn2, .learnBtn3, .learnBtn4, .learnBtn5, .learnBtn6, .learnBtn7, .learnBtn8, .learnBtn9{
+      font-size: 18px;
+      background-color: rgb(243, 246, 248);
+      border: none;
+      padding-top: 10px;
+      line-height: 40px;
+      padding-left: 20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*visible_text part*/
+  .visible_text, .visible_text1, .visible_text2, .visible_text3, .visible_text4, .visible_text5, .visible_text6, .visible_text7, .visible_text8, .visible_text9{
+      font-size: 14px;
+      line-height: 40px;
+      font-weight: 500;
+      padding-top: 10px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;   
+  }
+  /*non_visible_text part*/
+  .non_visible_text, .non_visible_text0, .non_visible_text2, .non_visible_text3, .non_visible_text4, .non_visible_text5, .non_visible_text6, .non_visible_text7, .non_visible_text8, .non_visible_text9 {
+      display: none;
+    }
+    /*non_visible_text_p part*/
+    .non_visible_text p,  .non_visible_text1 p,  .non_visible_text2 p,  .non_visible_text3 p, .non_visible_text4 p, .non_visible_text5 p, .non_visible_text6 p, .non_visible_text7 p, .non_visible_text8 p,.non_visible_text9 p{
+      font-size: 14px;
+      color: rgb(103, 101, 101);
+      padding-top: 0px;
+      width: 180px;
+      font-weight: 500;
+      line-height: 30px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      padding-left: 60px;
+      padding-right: 50px;
+    }
+    .non_visible_text0 p{
+      color: black;
+      font-size: 14px;
+      line-height: 25px;
+      width: 80%;
+      margin-left: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    /*hovering effect*/
+    .non_visible_text p:hover,    .non_visible_text2 p:hover,   .non_visible_text3 p:hover, .non_visible_text4 p:hover, .non_visible_text5 p:hover, .non_visible_text6 p:hover, .non_visible_text7 p:hover, .non_visible_text8 p:hover, .non_visible_text9 p:hover{ /*hovering effect*/
+      color: rgb(2, 1, 1);
+      transition: 0.1s;
+    }
+    /*flex-div*/
+    .flex{
+      display: flex;
+      gap: 20px;
+    }
+  /* Responsive Design for Screens up to 720px */
+@media screen and (max-width: 720px) {
+
+  #whole-content{
+    width: 78%;
+  }
+  /*learnbtn part*/
+  .learnBtn, .learnBtn1, .learnBtn2, .learnBtn3, .learnBtn4, .learnBtn5, .learnBtn6, .learnBtn7, .learnBtn8, .learnBtn9{
+    font-size: 16px;
+    padding-left: 10px;
+  }
+   /*visible_text part*/
+   .visible_text, .visible_text1, .visible_text2, .visible_text3, .visible_text4, .visible_text5, .visible_text6, .visible_text7, .visible_text8, .visible_text9{
+    font-size: 12px;
+  }
+    /*non_visible_text_p part*/
+    .non_visible_text p,  .non_visible_text1 p,  .non_visible_text2 p,  .non_visible_text3 p, .non_visible_text4 p, .non_visible_text5 p, .non_visible_text6 p, .non_visible_text7 p, .non_visible_text8 p,.non_visible_text9 p{
+      font-size: 12px;
+      display: none;
+    }
+}
